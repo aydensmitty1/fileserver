@@ -36,24 +36,9 @@ func main() {
 		ReadTimeout:  15 * time.Second,
 	}
 
-
-	//node, err := html.Parse()
-	///if err != nil{
-	//fmt.Print(err)
-//}
-	//isLiElement(node)
-	//isUlElement(node)
 	log.Fatal(srv.ListenAndServe())
 }
 
-// purpose of this handler is to do a system call for a listing on the configured directory
-// this system call will
-// eg. something in package os (maybe i forgot)
-
-// essentially google how to list files in a directory
-// convert them into html in the form of <ul><li>file1.txt</li><li>file2.txt</li></ul>
-// ignore sub directories for now
-// send the response with content type text/html
 
 
 func (i *Init)HandleRoot(w http.ResponseWriter,r *http.Request) {
@@ -79,6 +64,6 @@ func RipFunc (root string) (fum string) {
 			fum = fmt.Sprintf("%s%s", fum, currentFile)
 		}
 	}
-	//fmt.Print(fum)
+
 	return
 }

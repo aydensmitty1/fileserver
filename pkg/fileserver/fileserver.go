@@ -7,20 +7,7 @@ import (
 
 func FileFilter(f os.FileInfo) (fe string) {
 		if f.IsDir() == false {
-			fe= fmt.Sprint("<li>",f.Name(),"</li>")
+			fe= fmt.Sprint("<li>","<a href=","/static/",f.Name()," download target=","_blank",">",f.Name(),"</a>","</li>")
 		}
 	return
 }
-//func HandleRoot(fn string)string {
-//	root := "./"
-//	fi, err := ioutil.ReadDir(root)
-//	if err != nil {
-//		log.Fatal(err)
-//	}
-//	for _, fo := range fi {
-///
-//
-//		fn = FileFilter(fn, fo)
-//	}
-//	return fn
-//}
