@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d81d66a-d724-4834-a705-ed1d4d4c889c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Public/Lol/Fileserver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/Lol/troll.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Public/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/Public/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/rand.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Public/Lol/rip/rand.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/fileserver/fileserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/fileserver/fileserver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/fileserver/fileserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/fileserver/fileserver.go" afterDir="false" />
-    </list>
+    <list default="true" id="5d81d66a-d724-4834-a705-ed1d4d4c889c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-33" />
     <option name="y" value="-16" />
     <option name="width" value="1918" />
@@ -152,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533220507669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533220787100" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -245,12 +238,12 @@
       <workItem from="1532978882724" duration="12504000" />
       <workItem from="1533044696806" duration="18959000" />
       <workItem from="1533132217165" duration="26677000" />
-      <workItem from="1533218011776" duration="2484000" />
+      <workItem from="1533218011776" duration="2640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227076000" />
+    <option name="totallyTimeSpent" value="227232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
