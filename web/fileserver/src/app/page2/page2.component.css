@@ -1,0 +1,61 @@
+h1{
+  font-size:  xx-large;
+  text-align: center;
+  color:white;
+  background: #795aff;
+}
+#submitbtn {
+  position: absolute;
+  left: 55%;
+  margin-top: 23%;
+}
+mat-form-field{
+  color : black;
+  background: #795aff;
+  font-size: x-large;
+  position:absolute;
+  left : 60%;
+  margin-top: 20%;
+}
+#fileselect{
+  position: absolute;
+  left: 40%;
+  margin-top: 23%;
+}
+p{
+  color: #795aff;
+  position :absolute;
+  left: 20%;
+}
+
+.file_input_div {
+  margin: auto;
+  position: absolute;
+  right: 60%;
+  top: 63%;
+}
+
+.file_input {
+  position: absolute;
+  right: 75%;
+  top: 10%;
+}
+
+#file_input_text_div {
+  width: 200px;
+  position: absolute;
+  left: 60%;
+  top: 63%;
+}
+
+.none {
+  display: none;
+}
+#file_input_text{
+  background: #795aff;
+}
+#inter{
+  background: white;
+  color: #795aff;
+}
+

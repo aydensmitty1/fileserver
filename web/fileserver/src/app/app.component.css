@@ -1,0 +1,53 @@
+mat-toolbar{
+background: #795aff;
+  color : white;
+  font-size: large;
+}
+
+mat-tab-group{
+  background: #795aff;
+  height: 100%;
+}
+
+:host{
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+}
+
+.example-large-box {
+  height: 800px;
+  width: 2000px;
+}
+#switch{
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 1%;
+}
+mat-icon{
+  color: white;
+}
+
+#search{
+  position: absolute;
+  left: 23%;
+  top: 9.5%;
+}
+
+#upload{
+  position: absolute;
+  left: 14%;
+  top: 9.5%;
+}
+#home{
+  position: absolute;
+  left: 6%;
+  top: 9.5%;
+}
+#slider{
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 4%;
+}

@@ -1,0 +1,21 @@
+<mat-toolbar>
+  <span>Golang Fileserver</span>
+  <span class="example-fill-remaining-space"></span>
+</mat-toolbar>
+<mat-slide-toggle id="switch" (click)="slider()">Slide for Dark and Light Themes</mat-slide-toggle>
+<mat-icon id="upload">cloud_upload</mat-icon>
+<mat-icon id="search">search</mat-icon>
+<mat-icon id="home">home</mat-icon>
+  <mat-tab-group [dynamicHeight]="true" [ngStyle]="{backgroundColor: getColor(), color: getTextColor()}">
+    <mat-tab backgroundColor="#795aff" label="Home">
+      <div class="example-large-box mat-elevation-z4"><app-homepage></app-homepage>
+    </div>
+    </mat-tab>
+    <mat-tab label="Upload"><div class="example-large-box mat-elevation-z4"> <app-page2></app-page2>
+    </div>
+    </mat-tab>
+    <mat-tab label="Browse"> <div class="example-large-box mat-elevation-z4"> <app-page3></app-page3>
+    </div>
+    </mat-tab>
+  </mat-tab-group>
+

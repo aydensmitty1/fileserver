@@ -29,10 +29,9 @@ func main() {
 	p := &i
 	fmt.Print(p)
 	r := mux.NewRouter()
-	r.PathPrefix("/static/").Handler(http.StripPrefix("/static/", http.FileServer(http.Dir(dir))))
-	r.HandleFunc("/", i.HandleRoot)
-go	r.HandleFunc("/upload/", i.HandleUpload)
-	//r.HandleFunc("/static/",i.HandleStatic)
+	r.HandleFunc("/static/",i.HandleStatic)
+	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer("./"+http.Dir(dir))))
+	r.HandleFunc("/upload/", i.HandleUpload)
 	srv := &http.Server{
 		Handler:      r,
 		Addr:         port,
@@ -44,7 +43,7 @@ go	r.HandleFunc("/upload/", i.HandleUpload)
 
 func (i *Init) HandleRoot(w http.ResponseWriter, r *http.Request) {
 
-	path := fmt.Sprint("./Public/hello.html")
+	path := fmt.Sprint("C:/Users/smithay/Documents/godev/src/github.houston.softwaregrp.net/CSB/fileserver/web/fileserver/dist/fileserver/index.html")
 	file, err := os.Open(path)
 	if err != nil {
 		fmt.Print(err, "\n 1 \n")
