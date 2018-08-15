@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d81d66a-d724-4834-a705-ed1d4d4c889c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/fileserver/fileserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/fileserver/fileserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,20 +92,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pkg/fileserver/fileserver.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmd/fileserver/fileserver.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+            <state relative-caret-position="-809">
+              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -140,8 +142,8 @@
         <option value="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.css" />
         <option value="$PROJECT_DIR$/web/fileserver/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/web/fileserver/src/app/homepage/homepage.component.html" />
-        <option value="$PROJECT_DIR$/cmd/fileserver/fileserver.go" />
         <option value="$PROJECT_DIR$/pkg/fileserver/fileserver.go" />
+        <option value="$PROJECT_DIR$/cmd/fileserver/fileserver.go" />
       </list>
     </option>
   </component>
@@ -340,12 +342,12 @@
       <workItem from="1534192328299" duration="561000" />
       <workItem from="1534193202836" duration="2859000" />
       <workItem from="1534256249774" duration="2392000" />
-      <workItem from="1534342895880" duration="609000" />
+      <workItem from="1534342895880" duration="742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306207000" />
+    <option name="totallyTimeSpent" value="306340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -620,15 +622,15 @@
     <entry file="file://$PROJECT_DIR$/configs/index.html" />
     <entry file="file://$PROJECT_DIR$/pkg/fileserver/fileserver.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="136">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmd/fileserver/fileserver.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+        <state relative-caret-position="-809">
+          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
         </state>
       </provider>
     </entry>

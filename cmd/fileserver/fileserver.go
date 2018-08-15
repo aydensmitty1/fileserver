@@ -29,16 +29,13 @@ func main() {
 	p := &i
 	fmt.Print(p)
 	r := mux.NewRouter()
-<<<<<<< HEAD
 	r.HandleFunc("/static/",i.HandleStatic)
 	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer("./"+http.Dir(dir))))
 	r.HandleFunc("/upload/", i.HandleUpload)
-=======
 	r.PathPrefix("/static/").Handler(http.StripPrefix("/static/", http.FileServer("./"+http.Dir(dir))))
 	r.HandleFunc("/", i.HandleRoot)
 go	r.HandleFunc("/upload/", i.HandleUpload)
 	//r.HandleFunc("/static/",i.HandleStatic)
->>>>>>> b20bf3775b2347decaf97c3d59a04c5778023366
 	srv := &http.Server{
 		Handler:      r,
 		Addr:         port,

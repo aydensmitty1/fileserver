@@ -2,7 +2,7 @@
 <h1> The Upload Section</h1>
   <p>Pick the file you would like to upload and the path in which you want it to go and then push the submit button.</p>
 <form enctype="multipart/form-data" method="post" action="/upload/" >
- <!--<div class="file_input_div">
+ <div class="file_input_div">
     <div class="file_input">
       <label class="image_input_button mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
         <i class="material-icons">file_upload</i>
@@ -24,9 +24,5 @@
       </mat-autocomplete>
     </mat-form-field>
   </form>
-
   <button id="submitbtn" mat-raised-button color="primary" type="submit" value="upload file">Upload</button>-->
-  <input type="file" name="uploadfile" #File />
-  <input type="text" name="filepath" placeholder="file path"/>
-  <input type="submit" (click)="(upload())" value="upload file"/>
 </form>
