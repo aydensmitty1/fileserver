@@ -1,33 +1,55 @@
-import { Component, ViewChild, Input, Directive } from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
 import {FormControl} from '@angular/forms';
-import { HttpClient, } from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 @Component({
   selector: 'app-page2',
   templateUrl: './page2.component.html',
-  styleUrls: ['./page2.component.css'],
+  styleUrls: ['./page2.component.css']
 })
 
-@Directive({selector: '[file]' })
-export class Filers {
-  @Input() file: File;
-}
+// Directive({selector: '[filer]' })
+// export class Filers {
+ // @Input() file: File;
+// }
 
 export class Page2Component {
-  fileId: File;
-  @ViewChild(Filers)
-  set filer(v: Filers) {
-   v.file = this.fileId ;
-  }
+
+  @ViewChild('datfile')
+  filers: File;
+  // @ViewChild(Filers)
+  // set filer(v: Filers) {
+  //   v.file = this.filers;
+  // }
   myControl = new FormControl();
   options: string[] = ['/Public/', '/Intake/', '/Public/Lol/rip/', '/Public/Lol'];
   sliderOn = false;
   file: string;
-  upload() {
-    console.log(this.fileId);
-    return this.http.post('10.12.181.59:9993/upload/', this.fileId);
-  }
+  fileToUpload: File = null;
+
   public constructor(private http: HttpClient) {
+  }
+
+  upload() {
+    console.log(this.fileToUpload);
+    const formdata = new FormData();
+    formdata.append('uploadfile', this.fileToUpload);
+
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type':  'multipart/form-data'
+      })
+    };
+    this.http.post('/api/upload/', formdata)
+      .subscribe(res => {
+        console.log(res);
+      }, err => {
+        console.log(err);
+      });
+  }
+
+  handleFileInput(files: FileList) {
+    this.fileToUpload = files[0];
   }
 }
 
