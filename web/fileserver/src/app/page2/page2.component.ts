@@ -8,7 +8,7 @@ import { HttpClient, } from '@angular/common/http';
   styleUrls: ['./page2.component.css'],
 })
 
-@Directive({selector: '[App-Filer]' })
+@Directive({selector: '[file]' })
 export class Filers {
   @Input() file: File;
 }

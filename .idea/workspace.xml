@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d81d66a-d724-4834-a705-ed1d4d4c889c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Intake/ello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rerun.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/e2e/tsconfig.e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/filekeeper/filekeeper.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/filekeeper/filekeeper.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/filekeeper/filekeeper.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/filekeeper/filekeeper.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/homepage/homepage.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/homepage/homepage.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/homepage/homepage.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/homepage/homepage.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page3/page3.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page3/page3.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page3/page3.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/app/page3/page3.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/src/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/fileserver/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Public/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/fileserver/fileserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/fileserver/fileserver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/fileserver/fileserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/fileserver/fileserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/fileserver/src/app/page2/page2.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
